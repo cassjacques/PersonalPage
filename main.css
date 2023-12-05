@@ -4,10 +4,18 @@
     font-size: 80%;
 }
 
+.content {
+    width: 1000px;
+}
+
+#left {
+    width: 280px; 
+    max-width: 280px;
+}
 
 .col {
     float: left;
-    max-width: 720px;
+    width: 40%;
 }
 
 .row:after {
@@ -15,6 +23,10 @@
     clear: both;
 }
 
+#aboutMe {
+    margin: unset;
+    padding: unset;
+}
 
 /* MULTIPLES*/
 .col, #avaDetails {
@@ -102,10 +114,10 @@ a, .fa-brands, .fa-solid, .someInfo {
 }
 
 /*LEFT*/
-#left {
+/* #left {
     min-width: 280px;
     width: 20vw;
-}
+} */
 
 .leftSectionHeader {
     position: relative;
@@ -200,10 +212,10 @@ a {
 
 /*RIGHT*/
 #right {
-    max-width: 850px;
+    max-width: 500px;
     margin: 0px 0px 0px 50px;
-    width: 30vw;
-    min-width: 280px;
+    width: 500px;
+    min-width: 500px;
 }
 /*STATUS*/
 #status {
